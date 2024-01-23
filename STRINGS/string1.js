@@ -1,0 +1,11 @@
+let nombre = prompt("Ingrese su nombre");
+let nombreMayus = nombre.toUpperCase();
+let nombreMinus = nombre.toLowerCase();
+let inicial  = nombre.slice(0, 1);
+let inicialMayus = inicial.toUpperCase();
+let separar = nombre.split(" ");
+let nombreApellidos = separar.slice(2);
+let apellidos= nombreApellidos.join(" ");
+console.log (nombreMayus);
+console.log(nombreMinus);
+console.log(`${inicialMayus} ${apellidos} `);
